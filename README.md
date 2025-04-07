@@ -19,9 +19,10 @@ To run the project, follow these steps:
    ```
 
 2. **Run the Project**:
-    ```bash
-    python main.py
-    ```
+   Ensure you have Python installed on your system. Then, execute the following command:
+   ```bash
+   python main.py
+   ```
 
 ## Testing Instructions
 To run the tests for the project, follow these steps:
