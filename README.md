@@ -19,9 +19,10 @@ To run the project, follow these steps:
    ```
 
 2. **Run the Project**:
-    ```bash
-    python main.py
-    ```
+   Ensure you have Python installed, then execute the `main` function:
+   ```bash
+   python main.py
+   ```
 
 ## Testing Instructions
 To run the tests for the project, follow these steps:
@@ -69,3 +70,27 @@ We welcome contributions to the `cedricve/llm-generated-readme` project! To cont
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+### Function: main
+
+The `main` function serves as the entry point to the project. It initializes the necessary components and orchestrates the execution flow.
+
+#### Usage
+To run the `main` function, execute the following command:
+```bash
+python main.py
+```
+
+### Function: fetch_files
+
+The `fetch_files` function is designed to retrieve and manage files required by the project. It ensures that all necessary files are correctly loaded and accessible for further processing.
+
+#### Usage
+The `fetch_files` function can be called within the project to fetch and handle files. Here's an example of how to use it:
+```python
+from fetch_files import fetch_files
+
+files = fetch_files()
+```
