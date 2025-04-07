@@ -19,9 +19,11 @@ To run the project, follow these steps:
    ```
 
 2. **Run the Project**:
-    ```bash
-    python main.py
-    ```
+   ```bash
+   python main.py
+   ```
+
+The `main` function serves as the entry point of the project. It orchestrates the overall process of generating the README file.
 
 ## Testing Instructions
 To run the tests for the project, follow these steps:
@@ -36,6 +38,8 @@ To run the tests for the project, follow these steps:
    ```bash
    python -m unittest discover
    ```
+
+The `fetch_files` function is responsible for retrieving the necessary files for testing purposes. Ensure this function is properly defined and included in your tests.
 
 ## How to Contribute to the Project
 We welcome contributions to the `cedricve/llm-generated-readme` project! To contribute, please follow these guidelines:
